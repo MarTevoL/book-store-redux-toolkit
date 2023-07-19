@@ -82,7 +82,7 @@ const ReadingPage = () => {
                   <Typography gutterBottom variant="body1" component="div">
                     {`${book.author}`}
                   </Typography>
-                  {/* <Button
+                  <Button
                     sx={{
                       position: "absolute",
                       top: "5px",
@@ -96,7 +96,7 @@ const ReadingPage = () => {
                     onClick={() => setRemoveBook(book.id)}
                   >
                     &times;
-                  </Button> */}
+                  </Button>
                 </CardContent>
               </CardActionArea>
             </Card>
